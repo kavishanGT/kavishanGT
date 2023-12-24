@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @kavishanGT
+- 👋 Hi, I’m @Tashin Kavishan
 - 👀 I’m interested in bio-medical engineering
 - 🌱 I’m currently learning at University of Moratuwa
 - 💞️ I’m looking to collaborate on healthcare industries
