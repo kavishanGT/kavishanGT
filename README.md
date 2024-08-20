@@ -7,7 +7,12 @@ Through hands-on experiences and academic coursework, I am preparing to contribu
 Feel free to explore my repositories and connect with me!
 
 
-<!---
-kavishanGT/kavishanGT is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Interested In
+
+Electronics
+
+PCB Designing
+
+Image Processing
+
+Medical Imaging
