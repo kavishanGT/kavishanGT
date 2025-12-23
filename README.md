@@ -9,10 +9,12 @@ Feel free to explore my repositories and connect with me!
 
 ## Interested In
 
-Electronics
+Machine learning and Deep learning and MLOps
+
+Electronic circuit designing
 
 PCB Designing
 
-Image Processing
+Signal and Image Processing
 
 Medical Imaging
