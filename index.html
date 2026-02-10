@@ -1,58 +1,179 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Tashin Kavishan Portfolio</title>
+<meta charset="UTF-8">
+<title>Tashin Kavishan | Biomedical AI Portfolio</title>
+
 <style>
-body{font-family:Arial;margin:40px;background:#f7f7f7;}
-.container{max-width:900px;margin:auto;background:white;padding:30px;border-radius:10px}
-h1{color:#0a6}
-.card{background:#f1f1f1;padding:15px;margin:10px 0;border-radius:8px}
-button{padding:10px 15px;background:#0a6;color:white;border:none;border-radius:6px}
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:#f5f7fa;
+    color:#222;
+}
+
+header{
+    background:linear-gradient(135deg,#0f766e,#0ea5e9);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.profile{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid white;
+    margin-bottom:15px;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.section-title{
+    font-size:28px;
+    margin-bottom:20px;
+    border-left:6px solid #0ea5e9;
+    padding-left:10px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:14px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.08);
+    transition:0.2s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    background:#0ea5e9;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#111;
+    color:white;
+    margin-top:40px;
+}
 </style>
 </head>
 
 <body>
+
+<header>
+<img src="profile.jpg" class="profile">
+<h1>Tashin Kavishan</h1>
+<p>Biomedical Engineering Undergraduate | AI Healthcare Systems | Embedded Intelligence</p>
+<br>
+<a href="Tashin Kavishan (3).pdf" download><button>Download CV</button></a>
+</header>
+
 <div class="container">
 
-<h1>Tashin Kavishan</h1>
-<p>Biomedical Engineering Undergraduate | AI | Embedded Systems</p>
-
-<a href="Tashin Kavishan (3).pdf" download><button>Download CV</button></a>
-
-<h2>About Me</h2>
+<h2 class="section-title">About Me</h2>
 <p>
-Biomedical Engineering student at University of Moratuwa focusing on medical AI systems,
-signal processing, biomedical device design, and intelligent healthcare monitoring.
+Biomedical Engineering undergraduate at the University of Moratuwa specializing in intelligent
+healthcare technologies, machine learning, biomedical instrumentation, and embedded medical
+systems. My research interests include digital health systems, medical AI, signal processing,
+and next-generation wearable healthcare devices.
 </p>
 
-<h2>Projects</h2>
+<h2 class="section-title">Education</h2>
+<p>
+BSc Engineering (Hons) Biomedical Engineering — University of Moratuwa  
+GPA: 3.61 / 4.0
+</p>
+
+<h2 class="section-title">Featured Projects</h2>
+
+<div class="projects">
 
 <div class="card">
-<h3>CareAI Disease Prediction System</h3>
-<p>Multi-modal disease prediction using Heterogeneous Graph Neural Networks for early warning healthcare systems.</p>
+<h3>CareAI – Multi-Modal Disease Prediction System</h3>
+<p>
+AI-based early disease prediction platform using heterogeneous graph neural networks to model
+patient–test–disease relationships and generate explainable early warning alerts for
+non-communicable diseases.
+</p>
 </div>
 
 <div class="card">
 <h3>MRI Image Classification MLOps Pipeline</h3>
-<p>Full deep learning lifecycle deployment using MLflow, Docker and AWS for scalable inference.</p>
+<p>
+Developed an end-to-end medical imaging AI deployment pipeline using TensorFlow, MLflow,
+Docker, and AWS for scalable model training, versioning, and inference.
+</p>
 </div>
 
 <div class="card">
 <h3>Electronic Stethoscope System</h3>
-<p>ESP32-based real-time heart sound acquisition and MATLAB signal processing pipeline.</p>
+<p>
+Designed an ESP32-based real-time electronic stethoscope system with wireless PCG data
+transmission and MATLAB signal-processing backend for heart sound analysis.
+</p>
 </div>
 
 <div class="card">
-<h3>ECG Monitor Design</h3>
-<p>Analog ECG acquisition system with microcontroller visualization.</p>
+<h3>ECG Monitoring Device</h3>
+<p>
+Designed a biomedical ECG acquisition and monitoring system using analog circuitry and
+microcontroller-based visualization.
+</p>
 </div>
 
-<h2>Skills</h2>
-<p>Python, TensorFlow, PyTorch, Embedded Systems, Signal Processing, Docker, AWS, Flask</p>
+<div class="card">
+<h3>Breast Lesion Segmentation System</h3>
+<p>
+Developed deep learning segmentation models using frequency and localization feature aggregation
+techniques for improved lesion detection in ultrasound imaging.
+</p>
+</div>
 
-<h2>Contact</h2>
+<div class="card">
+<h3>Walking Abnormality Detection Footwear</h3>
+<p>
+Developed smart pressure-sensing footwear using load cells to measure plantar pressure distribution
+and detect walking abnormalities.
+</p>
+</div>
+
+</div>
+
+<h2 class="section-title">Technical Skills</h2>
+<p>
+Python • MATLAB • C/C++ • TensorFlow • PyTorch • Embedded Systems • Signal Processing •
+Flask • Docker • AWS • Git • Altium Designer
+</p>
+
+<h2 class="section-title">Contact</h2>
 <p>Email: tashinkavishan123@gmail.com</p>
+<p>LinkedIn: linkedin.com/in/kavishanGT</p>
 
 </div>
+
+<footer>
+© 2026 Tashin Kavishan | Biomedical AI Research Portfolio
+</footer>
+
 </body>
 </html>
