@@ -1,20 +1,142 @@
-# 👋 Hi, I’m Tashin Kavishan
+# Hi 👋 I'm Tashin Kavishan
 
-I am currently a third-year undergraduate student majoring in Biomedical Engineering. My interests lie in medical instrumentation, medical imaging, machine learning, image processing and machine vision, product development and web development. I am passionate about applying these disciplines to innovate within biomedical engineering.
+Biomedical Engineering Graduate from the University of Moratuwa
 
-Through hands-on experiences and academic coursework, I am preparing to contribute to impactful projects that integrate engineering principles into healthcare solutions. Committed to continuous learning, I am eager to make significant contributions to the field of biomedical engineering through practical application and innovation.
+AI Engineer | Machine Learning Engineer | Biomedical AI Researcher
 
-Feel free to explore my repositories and connect with me!
+---
 
+## About Me
 
-## Interested In
+- Biomedical Engineering Graduate
+- GPA: 3.61/4.00
+- Interested in AI for Healthcare
+- Research Areas:
+  - Graph Neural Networks
+  - Large Language Models
+  - Medical AI
+  - Computer Vision
+  - MLOps
+  - Biomedical Signal Processing
 
-Machine learning and Deep learning and MLOps
+---
 
-Electronic circuit designing
+## Tech Stack
 
-PCB Designing
+### Languages
 
-Signal and Image Processing
+Python • Java • C++ • SQL • JavaScript • TypeScript
 
-Medical Imaging
+### AI
+
+PyTorch
+TensorFlow
+Scikit-Learn
+OpenCV
+LangChain
+HuggingFace
+RAG
+LLMs
+
+### Backend
+
+FastAPI
+Flask
+Spring Boot
+
+### Frontend
+
+React
+Next.js
+
+### DevOps
+
+Docker
+GitHub Actions
+MLflow
+Prometheus
+Grafana
+PostgreSQL
+
+### Cloud
+
+AWS
+Azure
+
+---
+
+## Featured Projects
+
+🚑 CARE-AI
+
+Graph Neural Network based disease prediction system with RAG chatbot
+
+Tech
+
+PyTorch
+PyTorch Geometric
+Spring Boot
+Azure
+LangChain
+
+---
+
+📚 AI Physics LMS
+
+AI-powered Learning Management System with intelligent tutoring
+
+Tech
+
+React
+Spring Boot
+LangChain
+PostgreSQL
+FAISS
+
+---
+
+🧠 MRI Image Classification
+
+Complete MLOps pipeline for MRI disease classification
+
+Tech
+
+PyTorch
+Docker
+MLflow
+AWS
+
+---
+
+⚙️ AI Infrastructure Monitoring
+
+AIOps platform for anomaly detection and self-healing infrastructure
+
+Tech
+
+Prometheus
+Grafana
+FastAPI
+Docker
+
+---
+
+📈 GitHub Stats
+
+(Add GitHub stats cards)
+
+---
+
+## Publications
+
+Coming Soon
+
+---
+
+## Connect
+
+LinkedIn
+
+Email
+
+Portfolio Website
